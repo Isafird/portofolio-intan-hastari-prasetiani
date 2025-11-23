@@ -16,7 +16,7 @@ footer {
 
 header {
     text-align: center;
-    background: #6200ea;
+    background: #aa92cd;
     color: white;
     padding: 40px 20px;
 }
@@ -35,7 +35,7 @@ h2 {
 }
 
 a {
-    color: #6200ea;
+    color: #8f80a5;
     text-decoration: none;
 }
 
@@ -65,4 +65,14 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #6200ea;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
